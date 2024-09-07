@@ -27,6 +27,8 @@ $nonce = wp_create_nonce('add_listing_nonce');
                 </li>
                 <!-- Add more menu items as needed -->
             </ul>
+            <button id="logoutButton" class="btn btn-danger">Logout</button>
+            <div id="logoutResponse"></div>
         </div>
         <div class="col-md-9">
             <form id="listingForm" method="post">
