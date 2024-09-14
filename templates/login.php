@@ -20,7 +20,7 @@ get_header(); ?>
             <input type="checkbox" class="form-check-input" id="remember_me" name="remember_me">
             <label class="form-check-label" for="remember_me">Remember Me</label>
         </div>
-        <input type="hidden" name="nonce" value="<?php echo wp_create_nonce('ajax-login-nonce'); ?>">
+        <input type="hidden" name="nonce" value="<?php echo wp_create_nonce('echolist-login-nonce'); ?>">
         <button type="submit" class="btn btn-primary">Login</button>
         <a href="<?php echo wp_lostpassword_url(); ?>" class="btn btn-link">Forgot Password?</a>
     </form>

@@ -40,7 +40,7 @@ get_header(); ?>
 
         <input type="hidden" name="role" value="seller"> <!-- or dynamic based on tab selection -->
 
-        <input type="hidden" name="nonce" id="register-nonce" value="<?php echo wp_create_nonce('ajax-register-nonce'); ?>">
+        <input type="hidden" name="nonce" id="register-nonce" value="<?php echo wp_create_nonce('echolist-register-nonce'); ?>">
 
         <button type="submit" class="btn btn-primary">Register</button>
     </form>

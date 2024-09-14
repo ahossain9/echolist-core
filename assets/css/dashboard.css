@@ -1,0 +1,93 @@
+.dashboard-header{
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.dashboard-wrap {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.dashboard-header-info li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.dashboard-header-info li a {
+    display: block;
+}
+
+.dashboard-header-info {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.dashboard-header-wrap {
+    display: flex;
+}
+
+.dashboard-logo {
+    flex: 0 0 10%;
+}
+
+.dashboard-header-search {
+    flex: 0 0 30%;
+}
+.sidebar {
+    min-height: calc(100vh - 70px);
+    background: #ffffff;
+    font-family: "ubuntu-regular", sans-serif;
+    padding: 0;
+    width: 260px;
+    z-index: 11;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+}
+.sidebar .nav {
+    overflow: hidden;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.main-panel {
+    -webkit-transition: width 0.25s ease, margin 0.25s ease;
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: calc(100% - 260px);
+    min-height: calc(100vh - 70px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.content-wrapper {
+    background: #f2edf3;
+    padding: 2.75rem 2.25rem;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.navbar.fixed-top + .page-body-wrapper {
+    padding-top: 70px;
+}
+.page-body-wrapper {
+    min-height: calc(100vh - 70px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+} 
